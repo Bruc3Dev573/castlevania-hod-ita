@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "Castlevania: Harmony of Dissonance ITA v1.0",
+  "base_rom": {
+    "region": "USA",
+    "crc32": "88C1B562",
+    "sha1": "B90DA0D9BE0B3A0893CD9E2C399056BCF9579E21"
+  },
+  "requires": {
+    "hack": "Visual Improvement V1.2.7",
+    "url": "https://www.romhacking.net/hacks/9086/"
+  },
+  "variants": [
+    {
+      "name": "vi-1.2.7",
+      "base_patch": "CV HOD Visual Improvement V1.2.7.ips",
+      "base_sha1": "D3D380C3AEDB2411E17AACECFD0117199F3F65E3",
+      "ita_patch": "patches/hod-ita-vi-1.2.7.ips",
+      "ita_patch_sha256": "c1c6951fd30e02bcfa06ea36c2ca256bbc225f8fe80dba380491792a4f15bf86",
+      "result_sha1": "5319B0F10E2E896DA4FDA1C701FB16D3626143A4"
+    },
+    {
+      "name": "vi-1.2.7-cwhip",
+      "base_patch": "CV HOD Visual Improvement V1.2.7 C-Whip.ips",
+      "base_sha1": "3CC6E184D4FE050E8A04D7608EA929E76CEC5D1C",
+      "ita_patch": "patches/hod-ita-vi-1.2.7-cwhip.ips",
+      "ita_patch_sha256": "c1c6951fd30e02bcfa06ea36c2ca256bbc225f8fe80dba380491792a4f15bf86",
+      "result_sha1": "3D86FCC56113BFB3805A9ECDD2786095CEE6D2A9"
+    },
+    {
+      "name": "vi-1.2.7-rmenu",
+      "base_patch": "CV HOD Visual Improvement V1.2.7 RMenu.ips",
+      "base_sha1": "96310B206FB1CD4B9EA79E47521E2D0DA2F00B9D",
+      "ita_patch": "patches/hod-ita-vi-1.2.7-rmenu.ips",
+      "ita_patch_sha256": "c1c6951fd30e02bcfa06ea36c2ca256bbc225f8fe80dba380491792a4f15bf86",
+      "result_sha1": "DA1D202E27EEF1AA9EA6556FD8639AD709D3A5B9"
+    },
+    {
+      "name": "vi-1.2.7-cwhip-rmenu",
+      "base_patch": "CV HOD Visual Improvement V1.2.7 C-Whip RMenu.ips",
+      "base_sha1": "73337F16E2D34C1F031355CE341D867D312CFE2F",
+      "ita_patch": "patches/hod-ita-vi-1.2.7-cwhip-rmenu.ips",
+      "ita_patch_sha256": "c1c6951fd30e02bcfa06ea36c2ca256bbc225f8fe80dba380491792a4f15bf86",
+      "result_sha1": "2639784E3EB615FEAE703B4411051C01A7C788B8"
+    }
+  ]
+}
