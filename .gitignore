@@ -1,0 +1,6 @@
+*.gba
+*.srl
+*.sav
+*.State
+*.savestate
+.DS_Store
