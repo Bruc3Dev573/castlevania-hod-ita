@@ -35,9 +35,13 @@ text.
 ## Font
 
 Two glyphs used by Italian accents, `ì` and `ò`, did not exist in the base
-font and were added to unused glyph slots. Their pixel data is a first pass
-and may look rough in some contexts; a redraw is planned for the next
-release. The other accented letters (`à`, `è`, `é`, `ù`) reuse glyphs already
+font and were added to unused glyph slots. `ì` reuses the real accented
+letter body from a prior French fan translation of this game, with only the
+accent mark swapped, and is verified clean on hardware. `ò` uses the same
+technique but the result is still hard to read on hardware. The likely
+cause: the lowercase-o glyph table was never located in the ROM, so the
+reused body may not be a clean base. A fix needs that table found first.
+The other accented letters (`à`, `è`, `é`, `ù`) reuse glyphs already
 validated by prior fan translations of this game into other Latin-alphabet
 languages, so their pixel data was already known good.
 
@@ -51,8 +55,8 @@ languages, so their pixel data was already known good.
 - Byte budget: every translated string fits in the space reserved for the
   original, in place, so no pointer relocation was needed.
 - Runtime checks on real hardware/emulator covered menus, inventory, item
-  descriptions, story dialogue rendering (including the three ending
-  branches), and loading an existing save.
+  descriptions, and story dialogue rendering.
 
-A full continuous playthrough has not been completed, so this first release
-is still considered experimental.
+Manual play on hardware has reached Castle B over several hours with no
+crashes or softlocks. Castle B itself has not been completed yet, so a full
+continuous playthrough is still pending.

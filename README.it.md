@@ -42,15 +42,22 @@ compatibile. Gli hash delle basi e dei risultati sono in `release.json` e
 
 ## Stato della versione 1
 
-La traduzione copre 717 stringhe tra dialoghi, menu, nomi e descrizioni.
+La ROM ha 717 voci di testo (dialoghi, menu, nomi di oggetti e nemici). 613
+sono tradotte in italiano. Le restanti 104 restano in inglese per scelta
+esplicita: 9 sono nomi propri (Maxim, Lydie, Dracula e simili), 72 sono nomi
+brevi di oggetti/nemici che non entrano nel budget di byte fisso per ogni
+voce, e 23 sono slot placeholder interni mai mostrati in gioco.
+
 Le quattro varianti superano i controlli di integrità, il boot e le verifiche
 runtime mirate su menu, dialoghi e progressione avanzata della trama. Il
-caricamento di un salvataggio esistente è stato verificato manualmente.
+caricamento e la scrittura di un salvataggio sono stati verificati
+manualmente su hardware.
 
-Non è stata completata una partita al 100%, quindi questa prima release va
-considerata sperimentale. I glifi `ì` e `ò`, aggiunti appositamente al font,
-possono risultare poco leggibili in alcuni testi; verranno ridisegnati nella
-versione 2.
+Il gioco è stato provato su hardware reale per alcune ore, raggiungendo il
+Castello B, senza crash né blocchi. Il Castello B non è ancora stato
+completato. Il glifo `ò`, aggiunto appositamente al font, può risultare
+poco leggibile in alcuni testi. La correzione è prevista in una prossima
+release.
 
 Per segnalare crash, testo tagliato o altri problemi, usa le
 [Issues](https://github.com/Bruc3Dev573/castlevania-hod-ita/issues) indicando
@@ -71,8 +78,10 @@ variante, patcher e punto del gioco.
   di **Brutapode89**, usata come riferimento tecnico per la struttura del
   testo e del font
 
-Il testo italiano è stato tradotto dall'inglese originale; la traduzione
+Il testo italiano è stato tradotto dall'inglese originale. La traduzione
 francese non è inclusa né sovrapposta.
+
+Le condizioni di attribuzione e ridistribuzione del materiale originale del progetto sono descritte in [`NOTICE`](NOTICE).
 
 ## Avvertenze
 

@@ -42,14 +42,20 @@ patcher. Base and resulting hashes are listed in `release.json` and
 
 ## Version 1 status
 
-The translation covers 717 strings across dialogue, menus, names and item
-descriptions. All four variants pass integrity checks, boot tests and focused
-runtime checks covering menus, dialogue rendering and late-game story
-progression. Loading an existing save was also verified manually.
+The ROM has 717 text entries (dialogue, menus, item and enemy names). 613
+are translated into Italian. The remaining 104 stay in English by design: 9
+are character names (Maxim, Lydie, Dracula, and similar), 72 are short
+item/enemy names that do not fit the fixed byte budget available for each
+entry, and 23 are internal placeholder slots never shown in the game.
 
-A 100% playthrough has not been completed, so this first release should be
-considered experimental. The custom `ì` and `ò` glyphs may be hard to read in
-some text; they will be redrawn for version 2.
+All four variants pass integrity checks, boot tests and focused
+runtime checks covering menus, dialogue rendering and late-game story
+progression. Saving and loading were also verified manually on hardware.
+
+The game has been tested on real hardware for several hours, reaching
+Castle B, with no crashes or softlocks. Castle B itself has not been
+completed yet. The custom `ò` glyph may be hard to read in some text. A
+fix is planned for a future release.
 
 Report crashes, clipped text or other issues through
 [Issues](https://github.com/Bruc3Dev573/castlevania-hod-ita/issues), including
@@ -72,6 +78,8 @@ the selected variant, patcher and location in the game.
 
 The Italian script was translated from the original English text. The French
 translation is neither included nor layered into this patch.
+
+Attribution and redistribution terms for original project material are in [`NOTICE`](NOTICE).
 
 ## Disclaimer
 
