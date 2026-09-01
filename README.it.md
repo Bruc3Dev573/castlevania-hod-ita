@@ -47,10 +47,10 @@ Le quattro varianti superano i controlli di integrità, il boot e le verifiche
 runtime mirate su menu, dialoghi e progressione avanzata della trama. Il
 caricamento di un salvataggio esistente è stato verificato manualmente.
 
-Non è stata completata una partita al 100%, quindi questa prima release va
-considerata sperimentale. I glifi `ì` e `ò`, aggiunti appositamente al font,
-possono risultare poco leggibili in alcuni testi; verranno ridisegnati nella
-versione 2.
+Non è stata completata una partita al 100%, quindi questa release va ancora
+considerata sperimentale. Il glifo `ò`, aggiunto appositamente al font, può
+risultare poco leggibile in alcuni testi; la correzione è prevista in una
+prossima release.
 
 Per segnalare crash, testo tagliato o altri problemi, usa le
 [Issues](https://github.com/Bruc3Dev573/castlevania-hod-ita/issues) indicando

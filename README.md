@@ -47,9 +47,9 @@ descriptions. All four variants pass integrity checks, boot tests and focused
 runtime checks covering menus, dialogue rendering and late-game story
 progression. Loading an existing save was also verified manually.
 
-A 100% playthrough has not been completed, so this first release should be
-considered experimental. The custom `ì` and `ò` glyphs may be hard to read in
-some text; they will be redrawn for version 2.
+A 100% playthrough has not been completed, so this release should still be
+considered experimental. The custom `ò` glyph may be hard to read in some
+text; a fix is planned for a future release.
 
 Report crashes, clipped text or other issues through
 [Issues](https://github.com/Bruc3Dev573/castlevania-hod-ita/issues), including
